@@ -1,0 +1,48 @@
+md-content {
+	background-color: #f8f8f8;
+}
+
+md-toolbar:not(.md-menu-toolbar) {
+	background-color: #1d1f20;
+}
+
+.md-button.md-primary.md-fab {
+	background-color: rgb(63,81,181);
+}
+
+.gridParent {
+	width: 75%;
+	margin: 0 auto;
+}
+.box {
+  padding: 50px 0 50px 0;
+}
+.box a {
+	text-decoration: none;
+}
+.box a h1 {
+	color: #fff;
+}
+.lob {
+	background-color: #ed825a;
+}
+.lobIcon{
+	background: url("../img/icons/lineOfBusiness.png") no-repeat;
+	width: 100px;
+	height: 100px;	
+}
+.proj {
+	background-color: #7eb055;
+}
+.resc {
+	background-color: #3f4457;
+}
+.rept {
+	background-color: #fecc5d;
+}
+.fp {
+	background-color: #679eb4;
+}
+.fr {
+	background-color: #e45477;
+}

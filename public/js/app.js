@@ -1,0 +1,1 @@
+angular.module('resourceApp', ['appRoutes', 'MainCtrl', 'ResourceCtrl', 'ResourceService', 'ngMaterial']);

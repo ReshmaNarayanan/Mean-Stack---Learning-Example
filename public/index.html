@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resource Management Tool</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+        <link rel="stylesheet" href="css/libs/angular-material.min.css">
+        <link rel="stylesheet" href="css/main.css">    
+    </head>
+
+    <body ng-app="resourceApp" ng-controller="ResourceController">
+        <!-- <div class="container">  -->   	                               
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <h2>
+                        <span>Resource Tracking Tool</span>
+                    </h2>
+                    <span flex> </span>
+                    <md-button class="md-fab md-primary" aria-label="Profile">
+                        <md-icon md-svg-src="img/icons/person.svg"></md-icon>
+                    </md-button>
+                </div>
+            </md-toolbar>
+
+            <div ui-view></div>
+
+            
+            <!-- JS Libs -->
+            <script src="js/libs/angular.min.js"></script>
+            <script src="js/libs/angular-ui-router.js"></script>
+            <script src="js/libs/angular-animate.min.js"></script>
+            <script src="js/libs/angular-aria.min.js"></script>
+            <script src="js/libs/angular-messages.min.js"></script>
+            <script src="js/libs/angular-material.min.js"></script>
+
+            <!-- ANGULAR CUSTOM -->
+            <script src="js/app.js"></script>
+            <script src="js/appRoutes.js"></script>   
+            <script src="js/controllers.js"></script>
+            <script src="js/services.js"></script>
+        <!-- </div> -->
+    </body>
+</html>
